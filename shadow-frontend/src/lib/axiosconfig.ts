@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://shadow-backend-seven.up.railway.app/api",
+  baseURL: "https://shadow-backend-8mqv.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },
