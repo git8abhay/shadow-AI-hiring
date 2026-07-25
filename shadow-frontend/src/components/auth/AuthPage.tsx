@@ -124,7 +124,7 @@ export default function AuthPage() {
     setIsLoading(true);
 
     try {
-      const AUTH_PATH = "/auth";
+      const AUTH_PATH = "/api/auth";
       let response;
 
       if (authMode === "signup") {
